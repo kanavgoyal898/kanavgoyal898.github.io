@@ -1,10 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
     color: #EF9AA4;
     background-color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 span {
+    color: #DEE2E6;
     font-weight: bold;
 }
 
@@ -23,43 +24,81 @@ a {
 }
 
 .secondary-textbox {
+    margin: 0;
+    color: #DEE2E6;
     font-size: large;
+}
+
+.tertiary-textbox {
+    margin: 0;
+    font-size: medium;
+    font-weight: normal;
 }
 
 .mail {
     margin: 4px;
+    color: #EF9AA4;
     font-size: large;
     font-weight: normal;
+}
+
+.mail:hover {
+    color: #DEE2E6;
+}
+
+.link {
+    border: none;
     color: #EF9AA4;
+    padding: 8px 16px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border-radius: 16px;
+    background-color: #0D1517;
+}
+
+.link:hover {
+    color: #0D1517;
+    background-color: #DEE2E6;
+    box-shadow: 0 4px 8px #0D1517;
 }
 
 .skill {
+    border: none;
     color: #EF9AA4;
-    background-color: #0D1517;
     padding: 8px 16px;
     font-size: small;
     font-weight: lighter;
     text-align: center;
     text-decoration: none;
-    border: none;
     margin: 2px 0;
     border-radius: 16px;
+    background-color: #0D1517;
+}
+
+.skill:hover {
+    color: #0D1517;
+    background-color: #DEE2E6;
+    box-shadow: 0 4px 8px #0D1517;
 }
 
 .skill-heading {
+    margin: 0;
     color: #EF9AA4;
     font-weight: bold;
     padding: 8px 0;
-    margin: 0;
 }
 
 .skills {
-    padding: 4px 0;
+    margin: auto;
+    padding: 4px 0 0 0;
 }
 
 .heading {
-    margin: 32px 0 8px 0;
     padding: 0;
+    margin: 32px 0 8px 0;
 }
 
 .flex-container {
