@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #EF9AA4;
+    background-color: #212529;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    width: 84%;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-textbox {
+    color: #DEE2E6;
+    font-size: xx-large;
+}
+
+.secondary-textbox {
+    font-size: large;
+}
+
+.mail {
+    margin: 4px;
+    font-size: large;
+    font-weight: normal;
+    color: #EF9AA4;
+}
+
+.skill {
+    color: #EF9AA4;
+    background-color: #0D1517;
+    padding: 8px 16px;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin: 2px 0;
+    border-radius: 16px;
+}
+
+.skill-heading {
+    color: #EF9AA4;
+    font-weight: bold;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.skills {
+    padding: 4px 0;
+}
+
+.heading {
+    margin: 32px 0 8px 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-flex-item {
+    flex-basis: 40%;
+    padding: 24px 64px 16px 128px;
+    text-align: right;
+}
+
+.right-flex-item {
+    flex-basis: 60%;
+    padding: 24px 128px 16px 64px;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 25%;
+    padding: 8px;
+}
