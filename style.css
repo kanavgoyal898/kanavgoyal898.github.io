@@ -21,6 +21,8 @@ a {
 .primary-textbox {
     color: #DEE2E6;
     font-size: xx-large;
+    padding: 0;
+    margin: 4px 0;
 }
 
 .secondary-textbox {
